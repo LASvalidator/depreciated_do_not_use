@@ -3,7 +3,7 @@
   <report>
     <file>
       <name>fusa.las</name>
-      <path>C:\lasvalidator\lasvalidate\data\fusa.las</path>
+      <path>..\..\LASvalidator\lasvalidate\data\fusa.las</path>
       <version_major>1</version_major>
       <version_minor>1</version_minor>
       <point_data_format>1</point_data_format>

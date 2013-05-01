@@ -3,7 +3,7 @@
   <report>
     <file>
       <name>fusa.las</name>
-      <path>C:\lasvalidator\lasvalidate\data\fusa.las</path>
+      <path>..\..\LASvalidator\lasvalidate\data\fusa.las</path>
       <version_major>1</version_major>
       <version_minor>1</version_minor>
       <point_data_format>1</point_data_format>
@@ -16,9 +16,9 @@
   <report>
     <file>
       <name>lake.las</name>
-      <path>C:\lasvalidator\lasvalidate\data\lake.las</path>
+      <path>..\..\LASvalidator\lasvalidate\data\lake.las</path>
       <version_major>1</version_major>
-      <version_minor>1</version_minor>
+      <version_minor>2</version_minor>
       <point_data_format>1</point_data_format>
       <CRS>not implemented (yet)</CRS>
     </file>
@@ -35,9 +35,9 @@
   <report>
     <file>
       <name>test.las</name>
-      <path>C:\lasvalidator\lasvalidate\data\test.las</path>
+      <path>..\..\LASvalidator\lasvalidate\data\test.las</path>
       <version_major>1</version_major>
-      <version_minor>1</version_minor>
+      <version_minor>0</version_minor>
       <point_data_format>0</point_data_format>
       <CRS>not implemented (yet)</CRS>
     </file>
@@ -58,9 +58,9 @@
   <report>
     <file>
       <name>TO_core_last_zoom.las</name>
-      <path>C:\lasvalidator\lasvalidate\data\TO_core_last_zoom.las</path>
+      <path>..\..\LASvalidator\lasvalidate\data\TO_core_last_zoom.las</path>
       <version_major>1</version_major>
-      <version_minor>1</version_minor>
+      <version_minor>0</version_minor>
       <point_data_format>1</point_data_format>
       <CRS>not implemented (yet)</CRS>
     </file>
