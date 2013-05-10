@@ -30,18 +30,20 @@ This document describes all of the checks that lasvalidate puts LAS files throug
 Header checks
 ==============================================================================
 
-File Signature:
-  The file signature must contain the four characters "LASF".
+.. csv-table:: File Signature (char[4])
+    :widths: 10, 50, 10
 
-.. csv-table:: File Signature
-    :widths: 70, 10, 10
+    "1.X", "must always equal 'LASF'", "fail"
 
-    "char[4]", "must always equal 'LASF'", "fail"
-
-Global Encoding:
-  This is a bit field used to specify global properties about the file.
+The file signature must contain the four characters "LASF".
 
 .. csv-table:: Global Encoding
-    :widths: 70, 10, 10
+    :widths: 10, 50, 10
 
-    "char[4]", "must always equal 'LASF'", "fail"
+    "1.0", "must be less or equal 1", "fail"
+    "1.1", "must be less or equal 1", "fail"
+    "1.2", "must be less or equal 1", "fail"
+    "1.3", "must be less or equal 7", "fail"
+    "1.4", "must be less or equal 31", "fail"
+
+The Global Encoding bit field must have all those bits set to zero that are undefined in the specification of the respective version of the LAS file.
