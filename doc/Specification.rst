@@ -35,6 +35,7 @@ File Signature:
 
 .. csv-table:: File Signature
     :widths: 70, 10, 10
+
     "char[4]", "must always equal 'LASF'", "fail"
 
 Global Encoding:
@@ -42,4 +43,5 @@ Global Encoding:
 
 .. csv-table:: Global Encoding
     :widths: 70, 10, 10
+
     "char[4]", "must always equal 'LASF'", "fail"
