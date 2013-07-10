@@ -1,3 +1,5 @@
+With the acceptance of the contract by rapidlasso GmbH for creating the LAS Validation Suite (LVS) for the ASPRS the content of this folder becomes irrelevant (for the time being). we keep this pre-contract effort as a documentation of the open-source functionality that was already available pre-contract
+
 lasvalidate
 ===========
 
